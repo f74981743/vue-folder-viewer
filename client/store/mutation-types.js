@@ -1,0 +1,6 @@
+export const READ_ENTRIES = 'READ_ENTRIES'
+export const READ_DATAS = 'READ_DATAS'
+export const RESET_DATAS = 'RESET_DATAS'
+export const ADD_PATH_BTN = 'ADD_PATH_BTN'
+export const RESET_PATH_BTN = 'RESET_PATH_BTN'
+export const CLICK_PATH_BTN = 'CLICK_PATH_BTN'
