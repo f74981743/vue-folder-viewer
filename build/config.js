@@ -3,7 +3,7 @@ const pkg = require('../package')
 
 module.exports = {
   port: 4000,
-  title: 'todomvc',
+  title: 'vue folder viewer',
   vendor: Object.keys(pkg.dependencies),
   babel: {
     babelrc: false,
