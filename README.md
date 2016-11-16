@@ -1,4 +1,4 @@
-# vue-fileexplorer
+# vue folder viewer
 
 To start:
 
