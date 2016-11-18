@@ -5,8 +5,8 @@ export default {
   render(h) {
 	const pathBtns = this.$store.state.pathBtns;
     return (
-        <div class="top-bar">
-			<ul class="path-btn">
+        <div class={style['top-bar']}>
+			<ul class={style['path-btn']}>
 				{
 					pathBtns.map((pathBtn, index) =>
 						<PathBtn data={pathBtn} pathBtns={pathBtns} index={index} />

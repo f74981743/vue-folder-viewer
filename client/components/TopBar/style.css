@@ -1,0 +1,30 @@
+.top-bar {
+    height: 80px;
+    padding: 3px;
+}
+
+.path-btn {
+    width: 95%;
+    height: 35px;
+    background-color: white;
+    border: 1px solid #d0d0d0;
+}
+
+.path-btn li {
+    background-color: transparent;
+    margin: 5px 2px 2px 2px;
+    display: inline-block;
+    color: #4c4c4c;
+}
+
+.path-btn li:hover {
+    color: #6dc2d7;
+    cursor: pointer;
+}
+
+.path-btn li::before {
+    content: '>';
+    border: solid 1px solid;
+    padding: 2px;
+    margin: 0 10px 0 0;
+}

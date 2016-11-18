@@ -33,7 +33,7 @@ export default {
   },
   render(h) {
     return (
-      <div class={style.contentarea} 
+      <div class={style['content-area']} 
         on-drop={this.dropEvent} 
         on-dragenter={this.dragEnter}
         on-dragover={this.dragOver}
